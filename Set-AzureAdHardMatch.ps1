@@ -25,7 +25,7 @@ Function Convert-GUIDtoBase64
 {
     Param
     (
-        [ObjectGUID]$ObjectGUID
+        [GUID]$ObjectGUID
     )
 
     $Base64GUID = [system.convert]::ToBase64String($ObjectGUID.ToByteArray())
