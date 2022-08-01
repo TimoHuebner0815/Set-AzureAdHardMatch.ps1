@@ -11,7 +11,7 @@ Param
     [GUID]$ObjectGUID,
     [String]$UserPrincipalName,
     [Parameter(Mandatory=$false)]
-    [String]$MSOnlineDomain = 'MsOnline Domain'
+    [String]$MSOnlineDomain
 )
 
 #Check for MSOL Session is still open
