@@ -1,5 +1,5 @@
 # Set-AzureAdHardMatch.ps1
-Hard match a User or Users to Azure AD
+Hard match ADDS User or Users to Azure AD
 
 Start like:
 
